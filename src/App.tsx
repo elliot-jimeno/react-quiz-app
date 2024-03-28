@@ -57,7 +57,6 @@ const App = () => {
     return () => clearInterval(intervalId)
   }, [quizFinished, startTime])
   
-
   const calculateTimeTaken = () => {
     const minutes = Math.floor(elapsedTime / 60)
     const seconds = elapsedTime % 60
