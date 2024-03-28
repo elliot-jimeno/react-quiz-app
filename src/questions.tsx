@@ -12,10 +12,6 @@ export const questions = [
         correct: "Tashkent"
     },
     {
-        question: "Who painted the famous artwork 'Starry Night'?",
-        correct: "Vincent van Gogh"
-    },
-    {
         question: "What is the largest organ in the human body?",
         correct: "Skin"
     },
@@ -54,5 +50,14 @@ export const questions = [
     {
         question: "Who was the first female Prime Minister of the United Kingdom?",
         correct: "Margaret Thatcher"
-    }
+    },
+    {
+        question: "Which country is the leading producer of vanilla globally?",
+        correct: "Madagascar"
+    },
+    {
+        question: "What is the longest bone in the human body?",
+        correct: "Femur"
+    },
+    
 ]

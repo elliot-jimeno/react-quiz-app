@@ -20,6 +20,7 @@ const App = () => {
     const answer = (document.getElementById('answer')! as HTMLInputElement).value
     setUserAnswers([...userAnswers, answer])
     setCurrentQuestion(currentQuestion + 1)
+    setInputValue('');
   }
 
   const handleFinishQuiz = () => {
@@ -69,7 +70,7 @@ const App = () => {
         <div>
           <h1>CS 5754 Virtual Environments Research Quiz</h1>
           <p>
-            Instructions: You have unlimited time to take the quiz. However, along with your score, the 
+            <b>Instructions</b>: You have unlimited time to take the quiz. However, along with your score, the 
             time it takes for you to complete it will be recorded. Please read each question carefully 
             and enter your answer in the input field provided. You are allowed to use Google. Click 
             "Next Question" to proceed to the next question. You cannot go back. Click "Finish" once 
