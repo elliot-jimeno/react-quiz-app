@@ -70,11 +70,11 @@ const App = () => {
         <div>
           <h1>CS 5754 Virtual Environments Research Quiz</h1>
           <p>
-            <b>Instructions</b>: You have unlimited time to take the quiz. However, along with your score, the 
-            time it takes for you to complete it will be recorded. Please read each question carefully 
-            and enter your answer in the input field provided. You are allowed to use Google. Click 
-            "Next Question" to proceed to the next question. You cannot go back. Click "Finish" once 
-            you are done to stop the timer. Once you are ready, click "Start Quiz" to begin.
+            <b>Instructions</b>: While there is no time limit, you will be timed on how long it takes you to 
+            complete the quiz. The number of correct responses will also be recorded. You are encouraged to 
+            use Google (on the secondary monitor) to find the answers. Once you press "Next Question", you 
+            will not be able to go back. The timer will stop when you submit your final answer. Click on 
+            "Start Quiz" to begin.
           </p>
           <br />
           <button onClick={handleStartQuiz}>Start Quiz</button>
